@@ -105,11 +105,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="anasayfa.aspx" />
     <Content Include="foto\320ml-osmanl-imparatorluk-t-rk-cezve-bak-r-kaplama-t-rk-kahve-fincan-s-t-kovas.jpg" />
     <Content Include="foto\60P9094.jpg" />
     <Content Include="About.aspx" />
     <Content Include="foto\91kainMzBgL.jpg" />
+    <Content Include="foto\affogato.jpg" />
     <Content Include="foto\americano.jpg" />
+    <Content Include="foto\asas.jpg" />
     <Content Include="foto\bg.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -124,11 +127,20 @@
     <Content Include="foto\cappucıno.jpg" />
     <Content Include="foto\close-up-coffee-latte-art-cafe-menu-design-background-108227856.jpg" />
     <Content Include="foto\coffee-beans-isolated-background-32288.jpg" />
+    <Content Include="foto\con panna.jpg" />
+    <Content Include="foto\cortado.jpg" />
     <Content Include="foto\ESPRESSO.jpg" />
     <Content Include="foto\fresh-roasted-coffee-beans-with-copy-space.jpg" />
+    <Content Include="foto\g.jpg" />
+    <Content Include="foto\kahve-faydali-mi-zararli-mi.jpg" />
+    <Content Include="foto\kk.jpg" />
+    <Content Include="foto\kkkk.jpg" />
+    <Content Include="foto\l.jpg" />
     <Content Include="foto\latte.jpg" />
+    <Content Include="foto\mocha.jpg" />
     <Content Include="foto\photo-1620712692738-11374d3ef543.jpg" />
     <Content Include="foto\png-clipart-information-others-border-miscellaneous.png" />
+    <Content Include="foto\pngwing.com %281%29.png" />
     <Content Include="foto\pngwing.com.png" />
     <Content Include="foto\pngwingcom.png" />
     <Content Include="foto\roasted-coffee-bean-background-isolated-white-background-clo-beans-frame-copy-space-closeup-beans-texture-34802938.jpg" />
@@ -145,7 +157,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="index.aspx" />
     <Content Include="kahvecesitleri.aspx" />
     <Content Include="kahveTarifleri.aspx" />
     <Content Include="master.Master" />
@@ -189,6 +200,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -221,13 +239,6 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
-    </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="kahvecesitleri.aspx.cs">
       <DependentUpon>kahvecesitleri.aspx</DependentUpon>

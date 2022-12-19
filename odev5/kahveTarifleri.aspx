@@ -24,14 +24,32 @@
 
         <asp:Image ID="Image8" runat="server" CssClass="foto4" ImageUrl="~/foto/Screenshokt_2.jpg" />
         <asp:Label ID="Label8" runat="server" CssClass="label-border" style="top: 599px; left: 0px; width: 280px" Text="FLAT WHITE"></asp:Label>
-        <asp:Image ID="Image3" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 528px; left: -37px; height: 188px; width:353px;" />
+        <asp:Image ID="Image3" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 528px; left: -42px; height: 188px; width:353px;" />
 
         <asp:Image ID="Image9" runat="server" CssClass="foto5" ImageUrl="~/foto/cappucıno.jpg" />
         <asp:Image ID="Image7" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 528px; left: 387px; height: 188px; width:353px;" />
 
         <asp:Label ID="Label10" runat="server" CssClass="label-border" style="top: 600px; left: 434px; width: 265px" Text="CAPPUCINO"></asp:Label>
         <asp:Label ID="Label11" runat="server" CssClass="label6" Text="2 shot espresso <br> 60 ml süt <br> 60 ml süt  köpüğü"></asp:Label>
+        <asp:Image ID="Image10" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 524px; left: 820px; height: 188px; width:353px;" />
 
+        <asp:Image ID="Image11" runat="server" CssClass="foto6" ImageUrl="~/foto/cortado.jpg" style="top: 635px; left: 863px; height: 243px; width: 262px" />
+        <asp:Label ID="Label7" runat="server" CssClass="label-border" style="top: 597px; left:865px; width: 265px" Text="CORTADO"></asp:Label>
+        <asp:Label ID="Label12" runat="server" CssClass="label7" Text="2 shot espresso <br> 60 ml süt <br> 60 ml süt  köpüğü"></asp:Label>
+        <asp:Image ID="Image12" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 949px; left: -42px; height: 188px; width:353px;" />
+        <asp:Image ID="Image13" runat="server" CssClass="foto7" ImageUrl="~/foto/mocha.jpg" />
+        <asp:Label ID="Label13" runat="server" CssClass="label-border" style="top: 1022px; left: 1px; width: 280px" Text="MOCHA"></asp:Label>
+        <asp:Label ID="Label14" runat="server" CssClass="label8" Text="2 shot espresso 120 ml çikolata &lt;br&gt; 30 ml süt"></asp:Label>
+        <asp:Image ID="Image14" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 949px; left: 387px; height: 188px; width:353px;" />
+        <asp:Label ID="Label15" runat="server" CssClass="label-border" style="top: 1022px; left: 434px; width: 265px" Text="CON PANNA"></asp:Label>
+        <asp:Image ID="Image15" runat="server" CssClass="foto8" ImageUrl="~/foto/con panna.jpg" />
+        <asp:Label ID="Label16" runat="server" CssClass="label9" Text="2 shot espresso &lt;br&gt;90 ml  krem şanti"></asp:Label>
+        <asp:Image ID="Image16" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 949px; left: 820px; height: 188px; width:353px;" />
+        <asp:Label ID="Label17" runat="server" CssClass="label-border" style="top: 1022px; left: 865px; width: 265px" Text="AFFOGATO"></asp:Label>
+        <asp:Image ID="Image17" runat="server" CssClass="foto9" ImageUrl="~/foto/affogato.jpg" />
+        <asp:Label ID="Label18" runat="server" CssClass="label10" Text="2 shot espresso &lt;br&gt;90 ml  vanilyalı dondurma"></asp:Label>
     </div>
+  
+    
   
 </asp:Content>
