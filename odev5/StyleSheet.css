@@ -1,0 +1,246 @@
+﻿
+.button {
+    background-color: #f8c9a0;
+    position: sticky;
+    top: 57px;
+    margin-top: -9px;
+    border-style:double;
+
+}
+
+.button1 {
+    background-color: #f8c9a0;
+    position: sticky;
+    top: 57px;
+    margin-left: 400px;
+    margin-top:-10px;
+    z-index:2;
+}
+.ss {
+    height: 1000px;
+    width: 1467px;
+    background-size:100%;
+    background-image: url('foto/fresh-roasted-coffee-beans-with-copy-space.jpg');
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+}
+.body {
+    background-image: url('bg.jpg');
+}
+.espresso {
+    height: 338px;
+    width: 313px;
+    position: absolute;
+    top: 133px;
+    left: 120px;
+    background-image: url('foto/Screenshot_4.jpg');
+    background-size:cover;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.label {
+    position: absolute;
+    font-size: 30px;
+    color: brown;
+    z-index: 2;
+    text-align: center;
+    border-style: groove;
+    text-underline-offset: unset;
+    height: 34px;
+    Width:230px;
+}
+.drip {
+    position: absolute;
+    top: 212px;
+    left: 214px;
+    height: 1428px;
+    width: 1212px;
+    background-repeat:no-repeat;
+    background-size:338px, 313px;
+}
+
+.tarif {
+    position: absolute;
+    top: 122px;
+    left: 211px;
+    height: 1415px;
+    width: 1212px;
+    background-repeat: no-repeat;
+    background-size: 338px, 313px;
+}
+
+.box1{
+    position:relative;
+    height:332px;
+    width:289px;
+    margin-top:0px;
+    top:0px;
+}
+.box2 {
+    position: relative;
+    height: 332px;
+    width: 289px;
+    margin-top: 0px;
+    top: 0px;
+}
+
+.box3 {
+    position: relative;
+    height: 332px;
+    width: 289px;
+    margin-top: 0px;
+    top: 0px;
+}
+.box4{
+    position: relative;
+    height: 332px;
+    width: 289px;
+    margin-top: 400px;
+    left:0px;
+}
+
+.box5 {
+    position: relative;
+    height: 332px;
+    width: 289px;
+    margin-top: 400px;
+    left: -146px;
+    top: -694px;
+    border-style:double;
+}
+
+.box6 {
+    position: relative;
+    height: 332px;
+    width: 289px;
+    margin-top: 400px;
+    left: 601px;
+    top: -694px;
+    border-style: double;
+}
+
+.box7 {
+    position: relative;
+    height: 602px;
+    width: 289px;
+    margin-top: 400px;
+    left: 899px;
+    top: -695px;
+    border-style: double;
+}
+
+.foto{
+    position:absolute;
+    border-style:double;
+    top: 209px;
+    left: 2px;
+    height: 247px;
+    width: 227px;
+}
+.foto2 {
+    position: absolute;
+    border-style: double;
+    top: 209px;
+    height: 243px;
+    width: 262px;
+}
+.foto3{
+    position:absolute;
+    border-style:double;
+}
+.foto4 {
+    position: absolute;
+    border-style: double;
+    top: 639px;
+    left: 6px;
+    width: 262px;
+    height: 243px;
+}
+.foto5 {
+    position: absolute;
+    border-style: double;
+    top: 639px;
+    left: 431px;
+    width: 262px;
+    height: 243px;
+    margin-left: 1px;
+}
+.foto6 {
+    position: absolute;
+    border-style: double;
+}
+.foto7 {
+    position: absolute;
+    border-style: double;
+}
+.foto8 {
+    position: absolute;
+    border-style: double;
+}
+.foto9 {
+    position: absolute;
+    border-style: double;
+}
+
+.label2{
+    position:absolute;
+    font-size:20px;
+    text-align:center;
+    top: 469px;
+    left: 500px;
+    height: 45px;
+    width: 145px;
+}
+.label3 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 467px;
+    left: 927px;
+    height: 62px;
+    width: 148px;
+}
+.label4 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 511px;
+    left: 930px;
+    height: 62px;
+    width: 148px;
+}
+.label5 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 893px;
+    left: 67px;
+    height: 62px;
+    width: 148px;
+}
+.label6 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 894px;
+    left: 506px;
+    height: 77px;
+    width: 141px;
+}
+.border{
+    position:absolute;
+}
+
+.label-border {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 10px 10px 10px white;
+}
+
+.label-latte {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
