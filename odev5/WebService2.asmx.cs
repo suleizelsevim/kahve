@@ -20,10 +20,7 @@ namespace odev5
         [WebMethod]
         public string hesapla(string ml)
         {
-            ///int ml2 = Int32.Parse(ml);
-            ///int sonuc = ml2 / 16;
-            ///return sonuc.ToString();
-
+     
             int ml2 = Int32.Parse(ml);
             int sonuc = ml2 / 16;
             return sonuc.ToString();
