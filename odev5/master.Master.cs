@@ -33,5 +33,10 @@ namespace odev5
         {
             Response.Redirect("kahveTarifleri.aspx");
         }
+
+        protected void AdRotator1_AdCreated(object sender, AdCreatedEventArgs e)
+        {
+
+        }
     }
 }

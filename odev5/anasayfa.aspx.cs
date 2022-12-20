@@ -30,7 +30,15 @@ namespace odev5
         protected void Button1_Click1(object sender, EventArgs e)
         {
             hesapla2.WebService2 p = new hesapla2.WebService2();
-            Label3.Text = p.hesapla(TextBox1.Text)+" gr kahve kullanmanız gerekmektedir.";
+            try
+            {
+                Label3.Text = p.hesapla(TextBox1.Text) + " gr kahve kullanmanız gerekmektedir.";
+            }
+            catch
+            {
+                Label3.Text ="Lütfen sadece sayı girin.";
+            }
+            
         }
     }
 }

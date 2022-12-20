@@ -5,7 +5,7 @@
     <div class="tarif">
 
         <asp:ImageButton ID="ImageButton1" runat="server" CssClass="foto" Height="243px" ImageUrl="~/foto/ESPRESSO.jpg" Width="262px" />
-        <asp:Label ID="Label1" runat="server" CssClass="label2" style="top: 467px; left: 51px; height: 47px; width: 171px" Text="8 gr öğütülmüş kahve 30-34 ml su"></asp:Label>
+        <asp:Label ID="Label1" runat="server" CssClass="label2" style="top: 467px; left: 4px; height: 47px; width: 260px" Text="8 gr öğütülmüş kahve <br> 30-34 ml su"></asp:Label>
         <asp:Label ID="Label2" runat="server" CssClass="label-border" style="top: 173px; left: -1px; width: 278px" Text="ESPRESSO"></asp:Label>
         <asp:Label ID="Label9" runat="server" CssClass="label5" Text="2 shot espresso 120 ml süt"></asp:Label>
         <asp:Image ID="Image5" runat="server" CssClass="border" ImageUrl="~/foto/pngwingcom.png" style="top: 99px; left: -42px; height: 188px; width: 353px" />

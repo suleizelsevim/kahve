@@ -28,14 +28,14 @@
         <asp:HyperLink ID="Label1" runat="server" CssClass="lbl2" Font-Bold="True" Font-Italic="True" Font-Size="20pt" Font-Strikeout="False" Font-Underline="False" ForeColor="#993333" Text="KAHVE ÇEŞİTLERİ" NavigateUrl="~/kahvecesitleri.aspx"></asp:HyperLink>
         <p>
             <asp:HyperLink ID="HyperLink1" runat="server" CssClass="lbl1" Font-Bold="True" Font-Italic="True" Font-Size="20pt" Font-Strikeout="False" Font-Underline="False" ForeColor="#993333" Text="KAHVE TARİFLERİ" NavigateUrl="~/kahveTarifleri.aspx"></asp:HyperLink>
-            <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/foto/kk.jpg" CssClass="btn3" PostBackUrl="~/demlemeyontemleri.aspx" Style="height: 204px; margin-top: 0px; top: 652px; left: 33px; width: 320px; margin-right: 0px;" />
+            <asp:ImageButton ID="ImageButton3" runat="server" ImageUrl="~/foto/kk.jpg" CssClass="btn3" PostBackUrl="~/kahveTarifleri.aspx" Style="height: 204px; margin-top: 0px; top: 652px; left: 33px; width: 320px; margin-right: 0px;" />
         </p>
         <p>
             <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/foto/kk.jpg" CssClass="btn2" PostBackUrl="~/kahvecesitleri.aspx" Style="height: 215px; top: 190px; left: 28px; width: 327px;" OnClick="ImageButton2_Click1" />
         </p>
         <p>
             <asp:HyperLink ID="HyperLink2" runat="server" CssClass="lbl3" Font-Bold="True" Font-Italic="True" Font-Size="20pt" Font-Strikeout="False" Font-Underline="False" ForeColor="#993333" Text="DEMLEME YÖNTEMLERİ" NavigateUrl="~/demlemeyontemleri.aspx"></asp:HyperLink>
-            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/foto/kk.jpg" CssClass="btn1" PostBackUrl="~/kahveTarifleri.aspx" Style="height: 217px; margin-top: 0px; top: 420px; left: 28px; width: 327px; margin-bottom: 0px;" />
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/foto/kk.jpg" CssClass="btn1" PostBackUrl="~/demlemeyontemleri.aspx" Style="height: 217px; margin-top: 0px; top: 420px; left: 28px; width: 327px; margin-bottom: 0px;" />
             <asp:Label ID="Label4" runat="server" CssClass="newlbl" Text="Kahvenizi demlerken en önemli unsurlardan biri kahve-su oranıdır.<br> Bardağnızın kaç ml olduğunu girip hesapla butonuna basarak kaç gr kahve kullanmanız gerektiğini öğrenebilirsiniz." Font-Italic="True"></asp:Label>
         
             <asp:Button ID="Button1" runat="server" CssClass="btnanas" Text="HESAPLA" OnClick="Button1_Click1" />
