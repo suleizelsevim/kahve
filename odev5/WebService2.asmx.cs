@@ -7,20 +7,27 @@ using System.Web.Services;
 namespace odev5
 {
     /// <summary>
-    /// Summary description for WebService1
+    /// Summary description for WebService2
     /// </summary>
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
-    public class WebService1 : System.Web.Services.WebService
+    public class WebService2 : System.Web.Services.WebService
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public string hesapla(string ml)
         {
-            return "Hello World";
+            ///int ml2 = Int32.Parse(ml);
+            ///int sonuc = ml2 / 16;
+            ///return sonuc.ToString();
+
+            int ml2 = Int32.Parse(ml);
+            int sonuc = ml2 / 16;
+            return sonuc.ToString();
+
         }
     }
 }

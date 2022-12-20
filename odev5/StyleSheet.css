@@ -25,12 +25,12 @@
     background-position-y: -300px;
 }
 .anasayfa{
-    height: 671px;
     width: 1467px;
     background-size: 100%;
     background-image: url('foto/fresh-roasted-coffee-beans-with-copy-space.jpg');
     background-repeat: no-repeat;
     background-position-y: -300px;
+    margin-left: 59px;
 }
 .body {
     background-image: url('bg.jpg');
@@ -316,55 +316,77 @@
     position:absolute;
     block-size:100%;
 }
-.btn1{
-    position:absolute;
-    top: 219px;
-    left: 62px;
-    height: 422px;
-    width: 453px;
+.btn1 {
+    position: absolute;
 }
+
 .btn2 {
     position: absolute;
-    top: 220px;
-    left: 550px;
-    height: 422px;
-    width: 458px;
 }
+
 .btn3 {
     position: absolute;
-    top: 220px;
-    left: 1036px;
-    height: 422px;
-    width: 458px;
 }
-.lbl1{
-    position:absolute;
-    top: 316px;
-    left: 137px;
-    height: 89px;
-    width: 293px;
-    z-index:2;
-    bottom: 275px;
+.lbl1 {
+    position: absolute;
+    z-index: 2;
     text-align:center;
+    height: 62px;
+    width: 335px;
+    top: 736px;
+    left: 33px;
 }
+
 .lbl2 {
     position: absolute;
-    top: 310px;
-    left: 613px;
-    height: 119px;
-    width: 325px;
     z-index: 2;
-    bottom: 251px;
-    text-align: center;
+    text-align:center;
+    top: 283px;
+    left: 70px;
 }
+
 .lbl3 {
     position: absolute;
-    top: 310px;
-    left: 1111px;
-    height: 119px;
-    width: 325px;
     z-index: 2;
-    bottom: 251px;
-    text-align: center;
-    margin-top: 0px;
+    text-align:center;
+    width: 302px;
+    height: 75px;
+    top: 484px;
+    left: 48px;
+}
+.lblanas{
+    position:absolute;
+    top: 763px;
+    left: 590px;
+}
+.btnanas{
+    position:absolute;
+    top: 719px;
+    left: 756px;
+}
+.ana{
+    position:absolute;
+    height:1011px;
+    width:1531px;
+    top: -11px;
+    left: -11px;
+}
+
+.lbll{
+    position:absolute;
+    top: 208px;
+    left: 581px;
+    width: 592px;
+    height: 531px;
+}
+.txtbox{
+    position:absolute;
+    top: 720px;
+    left: 580px;
+}
+.newlbl{
+    position:absolute;
+    top: 618px;
+    left: 579px;
+    width: 506px;
 }

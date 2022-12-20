@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace odev5
 {
     public partial class anasayfa : System.Web.UI.Page
@@ -17,6 +18,19 @@ namespace odev5
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
 
+        }
+
+
+
+        protected void ImageButton2_Click1(object sender, ImageClickEventArgs e)
+        {
+
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            hesapla2.WebService2 p = new hesapla2.WebService2();
+            Label3.Text = p.hesapla(TextBox1.Text)+" gr kahve kullanmanız gerekmektedir.";
         }
     }
 }
